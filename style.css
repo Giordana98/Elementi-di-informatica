@@ -1,7 +1,9 @@
-<link rel="stylesheet"><head>
-<style>
-h1 {color:red;}
-p {color:blue;}
-</style>
-</head>
-</link rel="stylesheet">
+h1,h2 {
+color: yellow;
+background-color: violet;
+margin-left: 20 px
+}
+#curiculum {
+color: red;
+font-size: 60 px;
+}
