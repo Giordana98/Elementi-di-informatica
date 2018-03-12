@@ -3,7 +3,13 @@ color: yellow;
 background-color: violet;
 margin-left: 20 px
 }
-#curiculum {
+#curriculum {
 color: red;
 font-size: 60 px;
+}
+.importante em {
+  font-style: italic;
+}
+.importante {
+  font-style: normal;
 }
