@@ -15,3 +15,13 @@ font-size: 60 px;
 }
 #top > img:nth-child(1)
 <img src="//static1.squarespace.com/static/5384fc90e4b03be95bc24526/t/5512dcbde4b0dbee04c38700/1521994571796/?format=1500w" alt="Inspire ">
+body {
+color: #363636;
+font-family: "PT Serif",Georgia,serif;
+font-family: "Arial";
+font-size: 14px;
+line-height: 1.6em;
+letter-spacing: 0px;
+font-weight: 400;
+font-style: normal;
+}
