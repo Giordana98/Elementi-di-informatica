@@ -1,25 +1,12 @@
 h1,h2 {
 color: red;
-background-color: grey;
 margin-left: 20px;
 font-family: Arial
 }
 
-#curriculum {
+body {
 color: red;
-font-size: 60px;
-}
-.importante em {
-  font-style: italic;
-}
-.importante {
-  font-style: normal;
-}
-#top > img:nth-child(1)
-<img src="//static1.squarespace.com/static/5384fc90e4b03be95bc24526/t/5512dcbde4b0dbee04c38700/1521994571796/?format=1500w" alt="Inspire ">
-
-p {
-color: red;
+background-color: blue;
 font-family: "PT Serif",Georgia,serif;
 font-family: "Helvetica";
 font-size: 14px;
