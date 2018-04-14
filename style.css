@@ -20,12 +20,10 @@ font-style: normal;
 ul {
   color: #6b6b3d;
 }
-p.normale {
-text-align: left;
- }
-
-.citazione {
-text-align: "center";
-font-style: "italic";
+.normale { color: yellow;
+  font-style: italic;
+  font-family: sans-serif;
+  font-weight: normal;
+  font-kerning: auto;
+  font-size: 5;
 }
-/* sconsigliato: non e' una classe "logica" */
