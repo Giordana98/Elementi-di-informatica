@@ -7,7 +7,7 @@ margin-left: 20px;
 font-family: Helvetica;
 }
 
-body {background-image: https://pixabay.com/it/tigre-cat-predatore-gatto-selvatico-3261920/}
+body {background-image: url("https://pixabay.com/it/tigre-cat-predatore-gatto-selvatico-3261920/")}
 
 p {
 color: #357555;
