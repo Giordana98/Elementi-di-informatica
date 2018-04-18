@@ -2,19 +2,20 @@
 
 
 h1,h2 {
+text-align: center;
 color: #07333f;
 margin-left: 20px;
 font-family: Helvetica;
 }
 
-body {background-color: #ff9999
+body {background-color: #ede0e2
 }
 
 
 
 p {
 
-color: #357555;
+color: #827c7d;
 font-family: "PT Serif",Georgia,serif;
 font-family: "Helvetica";
 font-size: 14px;
@@ -24,9 +25,9 @@ font-weight: 400;
 font-style: normal;
 }
 ul {
-  color: #6b6b3d;
+  color: #232521;
 }
-.citazione { color: yellow;
+.citazione { color: 040504;
   font-style: italic;
   font-family: sans-serif;
   font-weight: normal;
@@ -35,5 +36,5 @@ ul {
 }
 
 #titolo {
-color: purple;
+color: 673d50;
 }
