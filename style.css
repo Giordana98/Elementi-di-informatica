@@ -1,12 +1,7 @@
 @charset
 
-
-h1,h2 {
-text-align: center;
-color: #07333f;
-margin-left: 20px;
-font-family: Helvetica;
-}
+h1 {text-align: : center;
+color: grey}
 
 body {background-color: #ede0e2
 }
