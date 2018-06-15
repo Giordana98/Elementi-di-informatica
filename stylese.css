@@ -1,0 +1,12 @@
+#quadrato {
+  width:100px;
+	height:100px;
+	background:orange;
+  position: absolute;
+}
+#quadrato.top-left {
+    top: 30vh; left: 30vw;
+}
+#quadrato.top-right {
+    top: 30vh; left: 60vw;
+}

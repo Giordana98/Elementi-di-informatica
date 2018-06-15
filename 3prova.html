@@ -1,0 +1,373 @@
+<html>
+<script src="jquery.js"></script>
+<link rel="stylesheet" href="normalize.css"/>
+<link rel="stylesheet" href="demo.css"/>
+<link rel="stylesheet" href="component.css"/>
+<link rel="stylesheet" href="css"/>
+<link rel="stylesheet" href="3.css"/> <!--non serve-->
+<link rel="stylesheet" href="3.normalize.css"/>
+<link rel="stylesheet" href="demo3.css"/>
+<link rel="stylesheet" href="component3.css"/>
+<!--nonserve-->
+<!-- on scroll menu --> <style>
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+</style>
+</head>
+<body>
+
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+  </div>
+</div>
+
+<h2>Fullscreen Overlay Nav Example</h2>
+<p>Click on the element below to open the fullscreen overlay navigation menu.</p>
+<p>In this example, the navigation menu will slide downwards from the top:</p>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+
+<script>
+function openNav() {
+    document.getElementById("myNav").style.height = "100%";
+}
+
+function closeNav() {
+    document.getElementById("myNav").style.height = "0%";
+}
+</script>
+
+<!-- full screen navigation -->
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+margin: 0;
+background-color: white;
+}
+
+#navbar {
+background-color: white;
+position: fixed;
+top: -50px;
+width: 100%;
+display:block;
+transition: top 0.3s;
+}
+
+#navbar a {
+float: left;
+display: block;
+color: black;
+text-align: center;
+padding: 15px;
+text-decoration: none;
+font-size: 17px;
+}
+
+#navbar a:hover {
+background-color: #ddd;
+color: black;
+}
+</style>
+</head>
+<body>
+
+<div id="navbar">
+<a href="#home">Home</a>
+<a href="#news">News</a>
+<a href="#contact">Contact</a>
+</div>
+
+<div style="padding:15px 15px 2500px;font-size:30px">
+
+</div>
+
+<script>
+// When the user scrolls down 20px from the top of the document, slide down the navbar
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+	if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+			document.getElementById("navbar").style.top = "0";
+	} else {
+			document.getElementById("navbar").style.top = "-50px";
+	}
+}
+</script>
+
+</body>
+</html>
+<!-- on scroll menu -->
+
+
+
+<body>
+		<div class="container">
+			<!-- Top Navigation -->
+			<header>
+				<h1>GiordanaDiBiagio<span></span></h1>
+				<p> </p>
+				<p></p>
+			</header>
+			<style>
+			header {
+				font-family: Raleway;
+				font-stretch: normal;
+			}
+			</style>
+			<section class="color-1">
+				<nav class="cl-effect-1" id="cl-effect-1">
+
+					<a href="#cl-effect-1">About me</a>
+					<a href="#cl-effect-1" >Design projects</a>
+					<a href="#cl-effect-1" >Photography</a>
+					<a href="#cl-effect-1" >Suggestions</a>
+					<a href="#cl-effect-1" >Creative</a>
+				</nav>
+			</section>
+<!--anchor styles-->
+      <html class="no-js" lang="en"><head>
+    		<meta charset="UTF-8">
+    		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    		<meta name="description" content="Inline Anchor Styles: Modern styles and effects for links in a text flow">
+    		<meta name="keywords" content="link style, inline anchor, styles, inspiration, effect, hover, modern, web design">
+    		<meta name="author" content="Codrops">
+    		<link rel="shortcut icon" href="../favicon.ico">
+    		<link href="https://fonts.googleapis.com/css?family=Raleway:400,100,300,500,800" rel="stylesheet" type="text/css">
+      		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    		<![endif]-->
+
+
+				<!-- slideshow -->
+				<html xml:lang="en-gb" lang="en-gb"><head>
+				<meta http-equiv="content-type" content="text/html; charset=utf-8">
+				<meta name="viewport" content="width=device-width, initial-scale=1.0">
+				<title>da inserire</title>
+				<meta name="description" content="Bootstrap  carousel.  Responsive, mobile-ready, full screen, retina-ready, touch-gesture-friendly. Awesome Hardware-accelerated transitions and templates. Non jQuery"><link rel="stylesheet" href="http://cssslider.com/styles.min.css" type="text/css">
+				<style type="text/css">
+				#rt-showcase.slider-container { background: white; }
+				.slider-container {
+				    padding-top: 20px;
+				}
+				.slider-container .csslider1 {
+				    position: relative;
+				    display: block;
+				    margin: 0 auto !important;
+				}
+				</style>
+				</head>
+				<body class="logo-type-preset1 header-headroom-enabled-scroll showcase-bg-transition-top-to-bottom showcase-type-preset1 feature-type-preset1 mainbody-overlay-light extension-type-preset1 footer-overlay-dark copyright-overlay-dark font-family-anacron font-size-is-default menu-type-dropdownmenu layout-mode-responsive col12 option-com-content menu-home -feb14-home" id="scrollheader">
+				    <div id="rt-page-surround">
+
+				                <div class="rt-container">
+				                    <div class="rt-grid-3 rt-alpha">
+				            <div class="rt-logo-block">
+
+				        </div>
+
+				</div>
+				<div class="rt-grid-9 rt-omega">
+				        <div class="menu-block">
+				        <div class="gf-menu-device-container responsive-type-panel"></div>
+
+
+				<!-- BF PROMO -->
+				<script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script><script type="text/javascript" src="/bf5.js"></script>
+				<!-- BF PROMO -->
+
+
+				<div class="clear"></div>
+				    </div>
+
+				</div>
+				                    <div class="clear"></div>
+				                </div>
+				            </div>
+				                    </header>
+
+				        <!-- slider -->
+				        <section id="rt-showcase-surround">
+				            <div id="rt-showcase" class="slider-container rt-overlay-dark">
+				                <div class="rt-container slider-container">
+				                    <div class="rt-grid-12 rt-alpha rt-omega">
+
+
+					<!-- Generated by cssSlider.com 1.7 -->
+					<link rel="stylesheet" href="http://cssslider.com/sliders/demo-32/engine1/style.css">
+					<!--[if IE]><link rel="stylesheet" href="http://cssslider.com/sliders/demo-32/engine1/ie.css"><![endif]-->
+					<!--[if lte IE 9]><script type="text/javascript" src="http://cssslider.com/sliders/demo-32/engine1/ie.js"></script><![endif]-->
+					<script type="text/javascript" src="http://cssslider.com/sliders/demo-32/engine1/gestures.js"></script>
+					<div class="csslider1 autoplay cs_handle">
+						<input name="cs_anchor1" id="cs_slide1_0" class="cs_anchor slide" type="radio">
+						<input name="cs_anchor1" id="cs_slide1_1" class="cs_anchor slide" type="radio">
+						<input name="cs_anchor1" id="cs_slide1_2" class="cs_anchor slide" type="radio">
+						<input name="cs_anchor1" id="cs_play1" class="cs_anchor" checked="" type="radio">
+						<input name="cs_anchor1" id="cs_pause1_0" class="cs_anchor pause" type="radio">
+						<input name="cs_anchor1" id="cs_pause1_1" class="cs_anchor pause" type="radio">
+						<input name="cs_anchor1" id="cs_pause1_2" class="cs_anchor pause" type="radio">
+						<ul>
+							<li class="cs_skeleton"><img src="http://cssslider.com/sliders/demo-32/data1/images/herbage349812_1280.jpg" style="width: 100%;"></li>
+							<li class="num0 img slide"> <img src="http://cssslider.com/sliders/demo-32/data1/images/herbage349812_1280.jpg" alt="Night Herb" title="Night Herb"></li>
+							<li class="num1 img slide"> <img src="http://cssslider.com/sliders/demo-32/data1/images/pasture349725_1280.jpg" alt="Pasture Herbage" title="Pasture Herbage"></li>
+							<li class="num2 img slide"> <img src="http://cssslider.com/sliders/demo-32/data1/images/flowers690425_1280.jpg" alt="Summer Field" title="Summer Field"></li>
+						</ul>
+						<div class="cs_description">
+							<label class="num0"><span class="cs_title"><span class="cs_wrapper">About me</span></span></label>
+							<label class="num1"><span class="cs_title"><span class="cs_wrapper">Projects</span></span></label>
+							<label class="num2"><span class="cs_title"><span class="cs_wrapper">Photography</span></span></label>
+							<label class="num2"><span class="cs_title"><span class="cs_wrapper">Poetry</span></span></label>
+							<label class="num2"><span class="cs_title"><span class="cs_wrapper">Creative</span></span></label>
+						</div>
+						<div class="cs_play_pause">
+							<label class="cs_play" for="cs_play1"><span><i></i><b></b></span></label>
+							<label class="cs_pause num0" for="cs_pause1_0"><span><i></i><b></b></span></label>
+							<label class="cs_pause num1" for="cs_pause1_1"><span><i></i><b></b></span></label>
+							<label class="cs_pause num2" for="cs_pause1_2"><span><i></i><b></b></span></label>
+							</div>
+						<div class="cs_arrowprev">
+							<label class="num0" for="cs_slide1_0"><span><i></i><b></b></span></label>
+							<label class="num1" for="cs_slide1_1"><span><i></i><b></b></span></label>
+							<label class="num2" for="cs_slide1_2"><span><i></i><b></b></span></label>
+						</div>
+						<div class="cs_arrownext">
+							<label class="num0" for="cs_slide1_0"><span><i></i><b></b></span></label>
+							<label class="num1" for="cs_slide1_1"><span><i></i><b></b></span></label>
+							<label class="num2" for="cs_slide1_2"><span><i></i><b></b></span></label>
+						</div>
+						<div class="cs_bullets">
+							<label class="num0" for="cs_slide1_0"> <span class="cs_point"></span>
+								<span class="cs_thumb"><img src="http://cssslider.com/sliders/demo-32/data1/tooltips/herbage349812_1280.jpg" alt="Night Herb" title="Night Herb"></span></label>
+							<label class="num1" for="cs_slide1_1"> <span class="cs_point"></span>
+								<span class="cs_thumb"><img src="http://cssslider.com/sliders/demo-32/data1/tooltips/pasture349725_1280.jpg" alt="Pasture Herbage" title="Pasture Herbage"></span></label>
+							<label class="num2" for="cs_slide1_2"> <span class="cs_point"></span>
+								<span class="cs_thumb"><img src="http://cssslider.com/sliders/demo-32/data1/tooltips/flowers690425_1280.jpg" alt="Summer Field" title="Summer Field"></span></label>
+						</div>
+					<div class="cs_gestures"><div><img src="http://cssslider.com/sliders/demo-32/data1/images/flowers690425_1280.jpg" alt="Summer Field" title="Summer Field" class="cs_first_img"><img src="http://cssslider.com/sliders/demo-32/data1/images/herbage349812_1280.jpg" alt="Night Herb" title="Night Herb"><img src="http://cssslider.com/sliders/demo-32/data1/images/pasture349725_1280.jpg" alt="Pasture Herbage" title="Pasture Herbage"><img src="http://cssslider.com/sliders/demo-32/data1/images/flowers690425_1280.jpg" alt="Summer Field" title="Summer Field"><img src="http://cssslider.com/sliders/demo-32/data1/images/herbage349812_1280.jpg" alt="Night Herb" title="Night Herb" class="cs_last_img"></div></div></div>
+
+				                    </div>
+				                    <div class="clear"></div>
+				                </div>
+				            </div>
+				        </section>
+				        <!-- /slider -->
+
+
+
+				<script type="text/javascript">
+				var _gaq = _gaq || [];
+				_gaq.push(['_setAccount', 'UA-51685724-1']);
+				_gaq.push(['_setDomainName', '.cssslider.com']);
+				_gaq.push(['_setAllowLinker', true]);
+				_gaq.push(['_setAllowHash', false]);
+				if(document.cookie.match("(^|;\\s)__utma") && !/utmcsr=\(direct\)/.test(unescape(document.cookie))) {
+				    _gaq.push(
+				    ['_setReferrerOverride', ''],['_setCampNameKey', 'aaan'],['_setCampMediumKey', 'aaam'],
+				    ['_setCampSourceKey', 'aaas'],['_setCampTermKey', 'aaat'],['_setCampContentKey', 'aaac'],
+				    ['_setCampCIdKey', 'aaaci'])
+				}
+				_gaq.push(['_trackPageview']);
+				(function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+				})();
+				</script>
+
+				</body></html>
+
+				<script src="https://secure.quantserve.com/quant.js" async="" type="text/javascript"></script><script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js"></script><script type="text/javascript">
+				var _gaq = _gaq || [];
+				_gaq.push(['_setAccount', 'UA-7243260-2']);
+				_gaq.push(['_trackPageview']);
+				(function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+				})();
+				</script>
+
+
+				  <link rel="stylesheet" type="text/css" href="https://tympanus.net/codrops/adpacks/demoadpacks.css?1526940161817"></head>
+				  <body>
+
+
+				    <div class="container">
+				      <!-- Top Navigation -->
+
+				      <header class="codrops-header">
+
+				      </header>
+
+				      <section class="link-scaleupbounce">
+				        <p>It is not to be denied, though, that the Novaya Zemblya <a href="#">scheme</a> had its seductions. There was in Vardö harbour a weird, clumsy craft of the type <a href="#">locally</a> known as “yot,” which had <a href="#">visited</a> that island many times with a crew of hunters. </p>
+				      </section>
+
+
+
+				    </div><!-- /container -->
+				    <script>
+				      // For Demo purposes only
+				      [].slice.call( document.querySelectorAll('a[href="#"') ).forEach( function(el) {
+				        el.addEventListener( 'click', function(ev) { ev.preventDefault(); } );
+				      } );
+				    </script>
+				    <!-- For the demo ad only -->
+				<script src="//tympanus.net/codrops/adpacks/demoad.js"></script>
+
+				</body></html>
