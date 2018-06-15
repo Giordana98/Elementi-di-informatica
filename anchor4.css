@@ -1,5 +1,5 @@
 section {
-	height: 30vh;
+	
 	text-align: left;
 	z-index: 1; /* needed for setting pseudo-element z-index */
 	overflow: hidden;
@@ -30,11 +30,7 @@ section a::after {
 
 
 /* Border */
-section > link-border {
-	position: absolute;
-	top: 50%;
-padding: 10px;
-}
+
 .link-border a {
 	color: #e74c3c;
 	font-weight: 500;
