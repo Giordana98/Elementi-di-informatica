@@ -1,5 +1,5 @@
 section {
-	
+	  background-opacity: 0.0;
 	text-align: left;
 	z-index: 1; /* needed for setting pseudo-element z-index */
 	overflow: hidden;
@@ -8,10 +8,11 @@ section {
 }
 
 section a {
+	  background-opacity: 0.0;
 	position: relative;
 	display: inline-block;
 	outline: none;
-
+color: black;
 	vertical-align: bottom;
 	text-decoration: none;
 	white-space: nowrap;
@@ -19,6 +20,7 @@ section a {
 
 section a::before,
 section a::after {
+	  background-opacity: 0.0;
 	pointer-events: none;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
@@ -32,14 +34,17 @@ section a::after {
 /* Border */
 
 .link-border a {
+	  background-opacity: 0;
 	color: #e74c3c;
 	font-weight: 500;
 	-webkit-transition: -webkit-transform 0.2s;
 	transition: transform 0.2s;
+	overflow: hidden;
 }
 
 .link-border a:hover,
 .link-border a:focus {
+
 	-webkit-transform: scale(0.8333);
 	transform: scale(0.8333);
 }

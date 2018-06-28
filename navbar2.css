@@ -94,7 +94,13 @@
 
 
 
+.color-1 {
 
+	height: 10vh;
+
+	background-color: blue;
+
+}
 
 .color-2 {
 	background: #f39c12;

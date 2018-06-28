@@ -25,11 +25,7 @@ a:focus {
 a:active,a:hover {
  outline:0;
 }
-h1 {
- font-size:2em;
- margin:0.67em 0;
- color: #e74c3c;
-}
+
 abbr[title] {
  border-bottom:1px dotted;
 }

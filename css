@@ -1,80 +1,247 @@
-/* latin-ext */
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 100;
-  src: local('Raleway Thin'), local('Raleway-Thin'), url(https://fonts.gstatic.com/s/raleway/v12/1Ptsg8zYS_SKggPNwE44Q4FqPfE.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+*,
+*:after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
-/* latin */
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 100;
-  src: local('Raleway Thin'), local('Raleway-Thin'), url(https://fonts.gstatic.com/s/raleway/v12/1Ptsg8zYS_SKggPNwE44TYFq.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+.foto {display: block}
+.foto:hover {
+  display: block;
 }
-/* latin-ext */
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Raleway Light'), local('Raleway-Light'), url(https://fonts.gstatic.com/s/raleway/v12/1Ptrg8zYS_SKggPNwIYqWqhPAMif.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+
+
+p {
+
+  background-opacity: 0.0;
+display: block;
+  font-size: 3em;
+  line-height: 1.518;
+  max-width: 100%;
+  margin: 0 auto;
 }
-/* latin */
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Raleway Light'), local('Raleway-Light'), url(https://fonts.gstatic.com/s/raleway/v12/1Ptrg8zYS_SKggPNwIYqWqZPAA.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v12/1Ptug8zYS_SKggPNyCMIT5lu.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v12/1Ptug8zYS_SKggPNyC0ITw.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 500;
-  src: local('Raleway Medium'), local('Raleway-Medium'), url(https://fonts.gstatic.com/s/raleway/v12/1Ptrg8zYS_SKggPNwN4rWqhPAMif.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 500;
-  src: local('Raleway Medium'), local('Raleway-Medium'), url(https://fonts.gstatic.com/s/raleway/v12/1Ptrg8zYS_SKggPNwN4rWqZPAA.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Raleway';
+h2 {
+    background-opacity: 0.0;
+color: #e74c3c;
+  left: 130px;
+  font-family: futura-pt, sans-serif;
   font-style: normal;
   font-weight: 800;
-  src: local('Raleway ExtraBold'), local('Raleway-ExtraBold'), url(https://fonts.gstatic.com/s/raleway/v12/1Ptrg8zYS_SKggPNwIouWqhPAMif.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  font-size: 3em;
+  line-height: 1.518;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: block;
 }
-/* latin */
-@font-face {
-  font-family: 'Raleway';
+
+
+body {
+  background-opacity: 0.0;
+  margin-right:0px;
+  margin-left:0px;
+  font-size: 28px;
+  font-family:sans-serif;
+  -ms-text-size-adjust:100%;
+  -webkit-text-size-adjust:100%;
+  font-family: 'Lato', Arial, sans-serif;
+}
+h1 {
+    background-opacity: 0.0;
+color: #e74c3c;
+  display: block;
+  transition: 0.70s;
+  -webkit-transition: 0.70s;
+  -moz-transition: 0.70s;
+  -ms-transition: 0.70s;
+  -o-transition: 0.70s;
+
+	line-height: 1.3;
+	margin: 0;
+	font-weight: 300;
+  color: black;
+  font-family: futura-pt-bold, sans-serif;
+font-style: normal;
+font-weight: 700;
+}
+span  {
+  background-opacity: 0.0;
+	display: block;
+	font-size: 40%;
+	color: black;
+	padding: 0 0 0.6em 0.1em;
+  font-family: futura-pt, sans-serif;
+  font-style: lighter;
+  font-weight: 300;
+}
+.content {
+    background-opacity: 0.0;
+  margin: 0;
+  font-size: 7px;
+  font-family:sans-serif;
+  -ms-text-size-adjust:100%;
+  -webkit-text-size-adjust:100%;
+  font-family: 'Lato', Arial, sans-serif;
+
   font-style: normal;
-  font-weight: 800;
-  src: local('Raleway ExtraBold'), local('Raleway-ExtraBold'), url(https://fonts.gstatic.com/s/raleway/v12/1Ptrg8zYS_SKggPNwIouWqZPAA.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+
+
+  line-height: 1.518;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: block;
+}
+
+
+
+
+.header {
+
+  position: relative;
+
+  top:0px;
+  bottom:0px;
+  margin: 0 0;
+
+	text-align: center;
+	color: black;
+
+
+
+  font-family: 'Lato', Arial, sans-serif;
+overflow: hidden;
+height: 80vh;
+
+}
+
+a {
+    background-opacity: 0.0;
+  text-decoration: none;
+}
+#navbar {
+  overflow: hidden;
+  background-color:white;
+height: 20vh;
+}
+
+
+#navbar a {
+
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 25px 25px;
+  text-decoration: none;
+  font-size: 17px;
+display: block;
+
+
+	outline: none;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+	text-shadow: 0 0 1px rgba(255,255,255,0.3);
+
+}
+nav a:hover,
+nav a:focus {
+	outline: none;
+}
+
+/* Effect 1: Brackets */
+#navbar a::before,
+#navbar a::after {
+	display: inline-block;
+	opacity: 0;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+	-moz-transition: -moz-transform 0.3s, opacity 0.2s;
+	transition: transform 0.3s, opacity 0.2s;
+}
+
+#navbar a::before {
+	margin-right: 10px;
+	content: '[';
+	-webkit-transform: translateX(20px);
+	-moz-transform: translateX(20px);
+	transform: translateX(20px);
+}
+
+#navbar a::after {
+	margin-left: 10px;
+	content: ']';
+	-webkit-transform: translateX(-20px);
+	-moz-transform: translateX(-20px);
+	transform: translateX(-20px);
+}
+
+#navbar a:hover::before,
+#navbar a:hover::after,
+#navbar a:focus::before,
+#navbar a:focus::after {
+	opacity: 1;
+	-webkit-transform: translateX(0px);
+	-moz-transform: translateX(0px);
+	transform: translateX(0px);
+}
+
+#navbar a:hover {
+  background-color: white;
+  	color: #e74c3c;
+}
+
+#navbar a.active {
+  background-color: white;
+  color:black;
+}
+
+$nav-height: 3em;
+$nav-color: black;
+$nav-background: white;
+
+
+.navbar-fixed {
+  position: fixed;
+  top: -($nav-height);
+}
+
+
+/*----------------------
+  $NAVBAR
+    basic navbar styling
+  ----------------------*/
+
+nav {
+  width: 100%;
+  color: $nav-color;
+  background: $nav-background;
+  font-weight: bold;
+  letter-spacing: 0.025em;
+}
+
+nav ul {
+  text-align: center;
+  margin: 0;
+}
+
+nav ul li {
+ display: inline-block;
+ padding: 0 3em;
+ line-height: 3em;
+}
+
+
+
+
+
+/*----------------------
+  $MISC
+  ----------------------*/
+
+.filler {
+  width: 1px;
+  height: 200px;
+}
+
+.two {
+  height: 3000px;
 }

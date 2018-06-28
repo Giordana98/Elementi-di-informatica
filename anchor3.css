@@ -14,18 +14,21 @@
 .clearfix:after { clear: both; }
 
 body {
-
+  background-opacity: 0.0;
 
 	font-family: 'Raleway', Arial, sans-serif;
 }
 p {
+	  background-opacity: 0.0;
 	font-family: 'Raleway', Arial, sans-serif;
 }
 span {
+	  background-opacity: 0.0;
 	font-family: 'Raleway', Arial, sans-serif;
 font-size: 0.7em }
 
 .svg-wrap {
+	  background-opacity: 0.0;
 	position: absolute;
 	width: 0px;
 	height: 0px;
@@ -33,24 +36,15 @@ font-size: 0.7em }
 }
 
 a {
-
+  background-opacity: 0.0;
 	text-decoration: none;
 	outline: none;
 }
 
-#aboutme {
 
-overflow: hidden;
-height: 50vh;
-background-color: white;
-position: relative;
-
-
-
-
-}
 
  p {
+	   background-opacity: 0.0;
 	font-size: 3em;
 	line-height: 1.518;
 	max-width: 100%;
@@ -59,11 +53,13 @@ position: relative;
 
 /* Header */
 .codrops-header {
+	  background-opacity: 0.0;
 	padding: 5em 2em;
 	letter-spacing: -1px;
 }
 
 .codrops-header h1 {
+
 	max-width: 1200px;
 	margin: 0 auto;
 	font-weight: 800;
