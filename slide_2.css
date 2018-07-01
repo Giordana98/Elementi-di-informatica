@@ -1,6 +1,8 @@
 
-#rt-showcase.slider-container { background: white; }
-
+#rt-showcase.slider-container { background: #F5F6F8; }
+.slider-container {
+    padding-top: 20px;
+}
 .slider-container .csslider1 {
     position: relative;
     display: block;

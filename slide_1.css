@@ -41,7 +41,7 @@
  }
 }
 html {
- background:white
+ background:#2D2D2D
 }
 body {
  min-width:100px!important
@@ -135,12 +135,12 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section {
  display:block
 }
 html {
-
+ font-size:100%;
  -webkit-text-size-adjust:100%;
  -ms-text-size-adjust:100%
 }
 a:focus {
- outline:thin dotted;
+ outline:thin dotted #333;
  outline:5px auto -webkit-focus-ring-color;
  outline-offset:-2px
 }
@@ -170,36 +170,42 @@ button::-moz-focus-inner,input::-moz-focus-inner {
 }
 body {
  margin:0;
-
+ font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+ font-size:14px;
  line-height:20px;
-
-
+ color:#333;
+ background-color:#fff
 }
 a {
-
+ color:#91e5a1;
  text-decoration:none
 }
 a:hover {
-
+ color:#005580;
  text-decoration:underline
 }
-
+p {
+ margin:0 0 10px
+}
+em {
+ font-style:italic
+}
 h1,h2,h3,h4,h5,h6 {
-
+ margin:10px 0;
+ font-family:inherit;
+ font-weight:bold;
+ line-height:1;
+ color:inherit;
  text-rendering:optimizelegibility
 }
-
-label {
-    line-height: inherit;
-    vertical-align: middle;
+h1 {
+ font-size:36px;
+ line-height:40px
 }
-label {
-    display: block;
-    margin-bottom: 5px;
+h2 {
+ font-size:30px;
+ line-height:40px
 }
-label, input, button, select, textarea {
-    font-size: 14px;
-    font-weight: normal;}
 ul,ol {
  padding:0;
  margin:0 0 10px 25px
@@ -326,7 +332,13 @@ input:focus:required:invalid:focus,textarea:focus:required:invalid:focus,select:
   margin-left:0
  }
 }
-
+@font-face {
+ font-family:'IcoMoon';
+ src:url(fonts/IcoMoon.eot);
+ src:url(fonts/IcoMoon.eot) format("embedded-opentype"),url(fonts/IcoMoon.svg#IcoMoon) format("svg"),url(fonts/IcoMoon.woff) format("woff"),url(fonts/IcoMoon.ttf) format("truetype");
+ font-weight:normal;
+ font-style:normal
+}
 [class^="icon-"],[class*=" icon-"] {
  display:inline-block;
  width:14px;
@@ -363,7 +375,13 @@ input:focus:required:invalid:focus,textarea:focus:required:invalid:focus,select:
 a:hover {
  text-decoration:none
 }
-
+html {
+ margin-bottom:1px;
+ height:100%
+}
+body {
+ margin-bottom:1px
+}
 .rt-block {
  padding:15px;
  margin:10px;
@@ -379,7 +397,11 @@ a:hover {
  content:"";
  clear:both
 }
-
+body {
+ font-size:16px;
+ line-height:26px;
+ font-family:Arial,Helvetica,Sans-Serif
+}
 .font-size-is-default {
  font-size:18px
 }
@@ -610,7 +632,10 @@ body .rt-margin-auto {
 .icon-file-add:before,.icon-cancel:before,.icon-eye:before,.icon-location:before,.icon-arrow-up-3:before,.icon-folder-2:before,.icon-checkedout:before,.icon-locked:before,.icon-comments-2:before,.icon-out:before,.icon-redo:before,.icon-file-add:before,.icon-new:before,.icon-apply:before,.icon-pencil-2:before,.icon-folder:before,.icon-pictures:before,.icon-list-view:before,.icon-power-cord:before,.icon-cube:before,.icon-puzzle:before,.icon-tools:before,.icon-options:before,.icon-equalizer:before,.icon-brush:before,.icon-eye:before,.icon-checkbox-unchecked:before,.icon-checkin:before,.icon-checkbox:before,.icon-checkbox-partial:before,.icon-star-2:before,.icon-featured:before,.icon-calendar-2:before,.icon-help:before,.icon-support:before,.icon-warning:before,.icon-publish:before,.icon-checkmark:before,.icon-unpublish:before,.icon-cancel:before,.icon-purge:before,.icon-mail:before,.icon-mail-2:before,.icon-unarchive:before,.icon-drawer:before,.icon-drawer-2:before,.icon-box-add:before,.icon-box-remove:before,.icon-grid-view:before,.icon-grid-view-2:before,.icon-menu:before,.icon-delete:before,.icon-cancel-2:before,.icon-save-new:before,.icon-plus-2:before,.icon-minus-2:before,.icon-quote:before,.icon-quote-2:before,.icon-database:before,.icon-location:before,.icon-expand-2:before,.icon-contract:before,.icon-contract-2:before,.icon-health:before,.icon-wand:before,.icon-unblock:before,.icon-vcard:before,.icon-clock:before,.icon-address:before,.icon-feed:before,.icon-flag-2:before,.icon-pin:before,.icon-lamp:before,.icon-chart:before,.icon-bars:before,.icon-pie:before,.icon-lightning:before,.icon-next:before,.icon-previous:before,.icon-first:before,.icon-last:before,.icon-loop:before,.icon-shuffle:before,.icon-arrow-first:before,.icon-arrow-last:before,.icon-uparrow:before,.icon-downarrow:before,.icon-arrow-up-2:before,.icon-arrow-right-2:before,.icon-arrow-down-2:before,.icon-arrow-left-2:before,.icon-play-2:before,.icon-menu-2:before,.icon-arrow-up-3:before,.icon-arrow-right-3:before,.icon-arrow-down-3:before,.icon-arrow-left-3:before,.icon-printer:before,.icon-color-palette:before,.icon-camera-2:before,.icon-file-remove:before,.icon-save-copy:before,.icon-cart:before,.icon-basket:before,.icon-broadcast:before,.icon-screen:before,.icon-mobile:before,.icon-users:before,.icon-out-2:before {
  font-family:'IcoMoon'!important
 }
-
+body {
+ color:#6e6e6e;
+ background:#fff
+}
 body .rt-block {
  margin:25px 0
 }
@@ -623,14 +648,16 @@ body .rt-block {
  overflow:hidden
 }
 a {
-
+ color:#ccf4b5;
  -webkit-transition:all .2s ease-out;
  -moz-transition:all .2s ease-out;
  -o-transition:all .2s ease-out;
  transition:all .2s ease-out;
-
+ -webkit-tap-highlight-color:rgba(62,157,211,0.5)
 }
-
+a:hover {
+ color:#fce3ac
+}
 .font-family-anacron #rt-page-surround {
  font-family:"Open Sans",sans-serif;
  font-weight:normal
@@ -646,7 +673,14 @@ a {
 .gf-menu .dropdown ul li .item {
  font-weight:bold!important
 }
-
+h1 {
+ font-size:250%;
+ line-height:130%
+}
+h2 {
+ font-size:160%;
+ line-height:160%
+}
 #rt-logo {
  display:block;
  margin:9px 25px 0 25px;
@@ -799,7 +833,8 @@ a {
  }
 }
 #rt-header {
-
+ color:#2F2F2F;
+ background-color:#FFF;
  box-shadow:0 1px 3px rgba(0,0,0,0.5);
  position:relative
 }
@@ -1768,7 +1803,7 @@ body.layout-mode-responsive {
  }
 }
 .sprocket-mosaic-hover {
-
+ background:rgba(0,0,0,0.5);
  opacity:0;
  visibility:hidden
 }
@@ -1777,7 +1812,7 @@ body.layout-mode-responsive {
  visibility:visible
 }
 .sprocket-mosaic-hovercontent {
-
+ color:#fff;
  opacity:0;
  visibility:hidden
 }
@@ -1816,7 +1851,10 @@ body.layout-mode-responsive {
  top:-50px;
  color:#484848
 }
-
+.download-for-win {
+ background-color:#cbecfd;
+ border-bottom-color:#7ccffa
+}
 form.download {
  overflow:hidden;
  position:relative
@@ -1835,7 +1873,7 @@ form.download .fields {
  transition:all 0.7s ease-out
 }
 form.download p input {
-
+ font-family:"Open Sans Condensed",sans-serif;
  padding:16px 28px;
  line-height:normal;
  font-size:36px;

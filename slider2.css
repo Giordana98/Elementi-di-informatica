@@ -6,8 +6,8 @@
   display: inline-block;
   position: relative;
   max-width: 960px;
-  
-  
+
+
 
   width: 100%;
 }
@@ -29,7 +29,7 @@
   line-height: 0;
   margin: 0 auto;
   padding: 0;
-  
+
   overflow: hidden;
   white-space: nowrap;
 }
@@ -126,11 +126,11 @@
 .csslider1 > #cs_slide1_0:checked ~ .cs_arrowprev > label.num2,
 .csslider1 > #cs_pause1_0:checked ~ .cs_arrowprev > label.num2,
 .csslider1 > #cs_slide1_0:checked ~ .cs_arrownext > label.num1,
-.csslider1 > #cs_pause1_0:checked ~ .cs_arrownext > label.num1, 
+.csslider1 > #cs_pause1_0:checked ~ .cs_arrownext > label.num1,
 .csslider1 > #cs_slide1_1:checked ~ .cs_arrowprev > label.num0,
 .csslider1 > #cs_pause1_1:checked ~ .cs_arrowprev > label.num0,
 .csslider1 > #cs_slide1_1:checked ~ .cs_arrownext > label.num2,
-.csslider1 > #cs_pause1_1:checked ~ .cs_arrownext > label.num2, 
+.csslider1 > #cs_pause1_1:checked ~ .cs_arrownext > label.num2,
 .csslider1 > #cs_slide1_2:checked ~ .cs_arrowprev > label.num1,
 .csslider1 > #cs_pause1_2:checked ~ .cs_arrowprev > label.num1,
 .csslider1 > #cs_slide1_2:checked ~ .cs_arrownext > label.num0,
@@ -521,7 +521,7 @@
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   outline: 1px solid transparent;
-  
+
   -webkit-transform-origin: 0 0;
   -ms-transform-origin: 0 0;
   transform-origin: 0 0;
@@ -595,7 +595,7 @@
 
 /* ------------- Template Play Pause ------------- */
 .csslider1 > .cs_play_pause {
-  
+
   left: 5px;
   top: 25px;
 }
@@ -692,14 +692,14 @@
 .csslider1 > .cs_bullets > label > .cs_thumb:before {
   content: '';
   position: absolute;
-  width: 0; 
-  height: 0; 
+  width: 0;
+  height: 0;
   left: 50%;
   margin-left: -4px;
   bottom: -6px;
   border-left: 6px solid transparent;
   border-right: 6px solid transparent;
-  
+
   border-top: 6px solid #b0e8ee;
 }
 .csslider1 > .cs_bullets > label:hover > .cs_thumb {
@@ -718,7 +718,7 @@
 .csslider1 > #cs_pause1_2:checked ~ .cs_bullets > label.num2 {
   background: #b0e8ee;
   margin-top: -3px;
-  padding: 6px;
+
 }
 
 
@@ -801,7 +801,7 @@
   padding: 5px 20px;
   text-align: left;
   font-size: 12px;
-  
+
 }
 
 
@@ -908,7 +908,7 @@ only screen and (   max--moz-device-pixel-ratio: 2)      and (max-width: 480px),
 only screen and (     -o-max-device-pixel-ratio: 2/1)    and (max-width: 480px),
 only screen and (        max-device-pixel-ratio: 2)      and (max-width: 480px),
 only screen and (                max-resolution: 192dpi) and (max-width: 480px),
-only screen and (                max-resolution: 2dppx)  and (max-width: 480px) { 
+only screen and (                max-resolution: 2dppx)  and (max-width: 480px) {
   .csslider1 > .cs_description,
   .csslider1 > .cs_bullets {
     display: none;

@@ -18,7 +18,9 @@
 <link rel="stylesheet" href="anchor2.css">
 <link rel="stylesheet" href="anchor3.css">
 <link rel="stylesheet" href="anchor4.css">
-
+<link rel="stylesheet" href="animazione.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300" type="text/css" />
+<link rel="stylesheet" href="stylese.css">
 
 <html class=" js csstransforms3d" style="" lang="en"><head>
 		<meta charset="UTF-8">
@@ -41,16 +43,19 @@
 </head>
 <body>
 
+<!--faded animation-->
+
+	<!--faded animation-->
+
+<div class="header" >
 
 
 
-<div class="header">
-	<div class="w3-container w3-center w3-animate-left">
+	<div class="w3-container w3-center w3-animate-left"style="z-index: 5000">
 
-
-  <h1>GiordanaDiBiagio</h1></div>
+  <h1 style="z-index:1000">GiordanaDiBiagio</h1></div>
 	<div class="w3-container w3-center w3-animate-right">
-	<span>Aspiring communication designer</span>
+	<span style="z-index:1000; color:white;">Aspiring communication designer</span>
   </div>
 </div>
 
@@ -58,17 +63,16 @@
 
 
 
-<section class="color-1">
   <nav class="navbar" id="navbar">
 
   <a  href="#aboutme" title="aboutme">About me</a>
-  <a href="#designproj" title="designprojects">Design Projects</a>
-  <a href="#photo" title="photos">Photography</a>
-  <a href="#creative" title="creative">Creative</a>
+  <a href="#designproj"  title="designproj">Design projects</a>
+  <a href="#projects_description" title="projects description">Projects description</a>
+  <a href="#photo" title="photo">Photography</a>
   <a href="#contatcs" title="contacts">Contacts</a>
 
   </nav>
-	</section>
+
 
 <div class="content">
 
@@ -106,18 +110,29 @@
 
 		<body>
 
-			<div id="aboutme" class="content">
-		<section class="link-border">
-				<h2> About me </h2>
+			<div id="aboutme">
 
 
-				<div id="about"><p> Hello, I'm an aspiring <a href="#"><a href="https://en.wikipedia.org/wiki/Communication_design" target="_blank"> communication designer </a></a>. After graduating at the Liceo classico of <a href="#"><a href="https://it.wikipedia.org/wiki/San_Benedetto_del_Tronto" target="_blank">San Benedetto del Tronto</a></a>, I'm now studying at the <a href="#"><a href="https://www.polimi.it/" target="_blank">Politecnico of Milan
-				</a>. My interests are wide: from art and design to poetry and psychoanalysis.<p> I hope you enjoy mi projects!
-				</p>
-				</p>
-</div>
 
-				</section>
+
+
+
+			<section class="link-border">
+
+
+					<div id="about"><h2> About me </h2>
+
+
+					<p> Hello, I'm an aspiring <a href="#"><a href="https://en.wikipedia.org/wiki/Communication_design" target="_blank"> communication designer </a></a>. After graduating at the Liceo classico of <a href="#"><a href="https://it.wikipedia.org/wiki/San_Benedetto_del_Tronto" target="_blank">San Benedetto del Tronto</a></a>, I'm now studying at the <a href="#"><a href="https://www.polimi.it/" target="_blank">Politecnico of Milan
+					</a>. Hope you enjoy my projects!
+					</p>
+
+		</div>
+		</section>
+		<div id="foto1"></div>
+	    <div id="foto2"></div>
+	        <div id="foto3"></div>
+
 </div>
 
 
@@ -139,7 +154,7 @@
 
 <!--navbar-->
 <!--slider-->
-
+<div id="designproj">
 <html xml:lang="en-gb" lang="en-gb"><head>
 <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -148,15 +163,7 @@
 <style type="text/css">
 
 
-.slider-container {
 
-    padding-top: 20px;
-}
-.slider-container .csslider1 {
-    position: relative;
-    display: block;
-    margin: 0 auto !important;
-}
 </style>
 </head>
 
@@ -174,7 +181,7 @@
         <!-- slider -->
 
         <section id="rt-showcase-surround" class="content">
-            <div id="rt-showcase" class="slider-container rt-overlay-dark" class="content">
+
                 <div class="rt-container slider-container" class="content">
                     <div class="rt-grid-12 rt-alpha rt-omega" class="content">
 
@@ -194,15 +201,15 @@
 		<input name="cs_anchor1" id="cs_pause1_1" class="cs_anchor pause" type="radio">
 		<input name="cs_anchor1" id="cs_pause1_2" class="cs_anchor pause" type="radio">
 		<ul>
-			<li class="cs_skeleton"><img src="https://drive.google.com/uc?id=1J9g4g1dV5jgSRi7zU2oKr0ZZwoIDg7DG" style="width: 100%;"></li>
-			<li class="num0 img slide"> <img src="https://drive.google.com/uc?id=1HQsPIcaTLT3H97VADiGFkh_kDxnbzeaB" alt="Acetate" title="Acetate"></li>
-			<li class="num1 img slide"> <img src="https://drive.google.com/uc?id=15lBc8QH8wy54qLc6TuOnNdNEjr-t8Hfp" alt="Synthetic" title="Synthetic"></li>
-			<li class="num2 img slide"> <img src="https://drive.google.com/uc?id=1Vk_PVj330zRMmcxnt3dBQsxcdJBB8mVo" alt="Plastic" title="Plastic"></li>
+			<li class="cs_skeleton"><img src="https://drive.google.com/uc?id=1J9g4g1dV5jgSRi7zU2oKr0ZZwoIDg7DG" style="max-height: 90vh;"></li>
+			<li class="num0 img slide"> <img src="https://drive.google.com/uc?id=1rPG4E7xYRe3Qdqb8PPqHSu5RLD_WJSPS" alt="Acetate" title="Acetate" ></li>
+			<li class="num1 img slide"> <img src="https://drive.google.com/uc?id=1hAPxXQu_RjXFfhxxh5P-NtxZCoR4Z2Gd" alt="Synthetic" title="Synthetic" style="max-height: 90vh;"></li>
+			<li class="num2 img slide"> <img src="https://drive.google.com/uc?id=1E2lB0QwDPH-tY5dpK2cDNrACiZdz7Qu8" alt="Plastic" title="Plastic" style="max-height: 90vh;"></li>
 		</ul>
 		<div class="cs_description">
-			<label class="num0"><span class="cs_title"><span class="cs_wrapper">Acetate</span></span></label>
-			<label class="num1"><span class="cs_title"><span class="cs_wrapper">Synthetic</span></span></label>
-			<label class="num2"><span class="cs_title"><span class="cs_wrapper">Plastic</span></span></label>
+			<label class="num0"><span class="cs_title"><span class="cs_wrapper">Monography</span></span></label>
+			<label class="num1"><span class="cs_title"><span class="cs_wrapper">Impagination</span></span></label>
+			<label class="num2"><span class="cs_title"><span class="cs_wrapper">Book covers</span></span></label>
 		</div>
 		<div class="cs_play_pause">
 			<label class="cs_play" for="cs_play1"><span><i></i><b></b></span></label>
@@ -222,11 +229,11 @@
 		</div>
 		<div class="cs_bullets">
 			<label class="num0" for="cs_slide1_0"> <span class="cs_point"></span>
-				<span class="cs_thumb"><img src="http://cssslider.com/sliders/demo-32/data1/tooltips/herbage349812_1280.jpg" alt="Night Herb" title="Night Herb"></span></label>
+			</label>
 			<label class="num1" for="cs_slide1_1"> <span class="cs_point"></span>
-				<span class="cs_thumb"><img src="http://cssslider.com/sliders/demo-32/data1/tooltips/pasture349725_1280.jpg" alt="Pasture Herbage" title="Pasture Herbage"></span></label>
+			</label>
 			<label class="num2" for="cs_slide1_2"> <span class="cs_point"></span>
-				<span class="cs_thumb"><img src="http://cssslider.com/sliders/demo-32/data1/tooltips/flowers690425_1280.jpg" alt="Summer Field" title="Summer Field"></span></label>
+			</label>
 		</div>
 	<div class="cs_gestures"><div style="transform: translate3d(0px, 0px, 0px); transition: transform 90ms linear 0s;"><img src="http://cssslider.com/sliders/demo-32/data1/images/flowers690425_1280.jpg" alt="Summer Field" title="Summer Field" class="cs_first_img"><img src="http://cssslider.com/sliders/demo-32/data1/images/herbage349812_1280.jpg" alt="Night Herb" title="Night Herb"><img src="http://cssslider.com/sliders/demo-32/data1/images/pasture349725_1280.jpg" alt="Pasture Herbage" title="Pasture Herbage"><img src="http://cssslider.com/sliders/demo-32/data1/images/flowers690425_1280.jpg" alt="Summer Field" title="Summer Field"><img src="http://cssslider.com/sliders/demo-32/data1/images/herbage349812_1280.jpg" alt="Night Herb" title="Night Herb" class="cs_last_img"></div></div></div>
 
@@ -235,11 +242,46 @@
                 </div>
 							</div>
             </div>
-					</div>
+
         </section>
         <!-- /slider -->
+<div id="projects_description"></div>
+<!--slide 2-->
+<link rel="stylesheet" href="w3school.css">
+<body>
 
 
+<div id="photo"  class="w3-content w3-display-container" >
+
+	<div id="foto4"></div>
+		<div id="foto5"></div>
+				<div id="foto6"></div>
+</div>
+
+
+<script>
+var slideIndex = [1,1];
+var slideId = ["mySlides1", "mySlides2"]
+showDivs(1, 0);
+showDivs(1, 1);
+
+function plusDivs(n, no) {
+  showDivs(slideIndex[no] += n, no);
+}
+
+function showDivs(n, no) {
+  var i;
+  var x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  x[slideIndex[no]-1].style.display = "block";
+}
+</script>
+
+</body>
 
 <!--slider-->
 </div> <!--fine content -->
@@ -258,6 +300,8 @@ function myFunction() {
 }
 </script>
 <!--navbar-->
+<!--photography-->
+
 
 </body>
 </html>

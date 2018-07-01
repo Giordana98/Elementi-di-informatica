@@ -11,6 +11,7 @@ body {
 }
 
 nav a {
+  z-index: 1000;
 	position: relative;
 	display: inline-block;
 	margin: 1px 32px;
