@@ -1,11 +1,11 @@
 
 #foto4 {
   height: 100vh;
-  width: 33vw;
+  width: 35vw;
   padding-top: 10vh;
   background: url("https://drive.google.com/uc?id=1l-2w6Aty6HogOKUC4wVY2ev7O-zA3Vlx");
   position: absolute;
-  left: 33vw;
+  left: 55vw;
   opacity:0;
   animation-name: transform;
   animation-duration: 5s;
@@ -22,11 +22,11 @@ z-index: 0;
 }
 #foto5 {
   height: 100vh;
-  width: 33vw;
+  width: 35vw;
   padding-top: 10vh;
   background: url("https://drive.google.com/uc?id=1TUtsNxHpqbxgXxR6mx8ALLnNNL9oIC6E");
   position: absolute;
-  left: 33vw;
+  left: 55vw;
   animation-name: transform;
   animation-duration: 5s;
     animation-delay: 2s;
@@ -43,10 +43,10 @@ z-index: 0;
 }
 #foto6 {
   height: 100vh;
-  width: 33vw;
+  width: 35vw;
   padding-top: 10vh;
   position: absolute;
-  left: 33vw;
+  left: 55vw;
   background:url("https://drive.google.com/uc?id=1QVuYxUL83jG3-7Ik3cLncn66bi2hb9KO");
   animation-name: transform;
   animation-duration: 5s;
@@ -59,7 +59,7 @@ background-position: 0 0;
 -webkit-background-size: cover;
 background-size: cover;
 background-position: center;
-z-index: 0; 
+z-index: 0;
 
 }
 @keyframes transform {
